@@ -1,0 +1,10 @@
+.s1 {
+    /* display:inline;  */
+    width:15%; 
+    float:left;
+}
+.s2{
+    /* display:inline;  */
+    width: 85%; 
+    float: left;
+}

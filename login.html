@@ -7,13 +7,15 @@
 </head>
 <body>
     <form>
-        username: <input type="text"/>
+        username: <input type="text" required/>
         <br/>
-        password: <input type="password"/>
+        password: <input type="password" 
+        pattern=".{8,}"   required title="8 characters minimum"/>
         <br/>
-        <input type="checkbox"/> Remember me
+        <input type="checkbox" required/> Remember me
         <br/>
-        <button type="button"> login </button>
+        <input type="submit"/>
+        <!-- <button type="button"> login </button> -->
     </form>
 </body>
 </html>     
